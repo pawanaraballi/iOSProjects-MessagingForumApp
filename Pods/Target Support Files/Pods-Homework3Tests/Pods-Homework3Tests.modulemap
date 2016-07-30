@@ -1,0 +1,6 @@
+framework module Pods_Homework3Tests {
+  umbrella header "Pods-Homework3Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
