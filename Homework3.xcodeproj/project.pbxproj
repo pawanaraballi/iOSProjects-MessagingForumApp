@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F98D3241D51105C00B05619 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D3231D51105C00B05619 /* MainTableViewController.swift */; };
+		3F98D32A1D51374C00B05619 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98D3291D51374C00B05619 /* UserTableViewCell.swift */; };
+		3FE073961D539FDA00B14D90 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE073951D539FDA00B14D90 /* UsersTableViewController.swift */; };
+		3FE073981D53A94400B14D90 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE073971D53A94400B14D90 /* User.swift */; };
+		3FE0739A1D53B24400B14D90 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE073991D53B24400B14D90 /* UserViewController.swift */; };
+		3FE074631D5459BB00B14D90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FE074621D5459BB00B14D90 /* GoogleService-Info.plist */; };
+		3FE074651D5460AD00B14D90 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074641D5460AD00B14D90 /* InviteViewController.swift */; };
 		3FFE42F51D4C259C0090B9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE42F41D4C259C0090B9FC /* AppDelegate.swift */; };
 		3FFE42FA1D4C259C0090B9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE42F81D4C259C0090B9FC /* Main.storyboard */; };
 		3FFE42FD1D4C259C0090B9FC /* Homework3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE42FB1D4C259C0090B9FC /* Homework3.xcdatamodeld */; };
@@ -16,7 +23,6 @@
 		3FFE43181D4C259C0090B9FC /* Homework3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE43171D4C259C0090B9FC /* Homework3UITests.swift */; };
 		3FFE43261D4C28FA0090B9FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE43251D4C28FA0090B9FC /* LoginViewController.swift */; };
 		3FFE43281D4C290A0090B9FC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE43271D4C290A0090B9FC /* SignUpViewController.swift */; };
-		3FFE432A1D4C30990090B9FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE43291D4C30990090B9FC /* GoogleService-Info.plist */; };
 		42A6E84B15037177875D20B7 /* Pods_Homework3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C005D06FAC9A501BA3CB184 /* Pods_Homework3.framework */; };
 		67CF0A81586C628AE2514D5F /* Pods_Homework3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5BE1B7C6DDF3DC372B030B /* Pods_Homework3UITests.framework */; };
 		BDCD77045D3F7F8D3611A687 /* Pods_Homework3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D649114D791C47A580299A0 /* Pods_Homework3Tests.framework */; };
@@ -43,6 +49,13 @@
 		0C005D06FAC9A501BA3CB184 /* Pods_Homework3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E68DF6DA787035CC6028792 /* Pods-Homework3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Homework3Tests/Pods-Homework3Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E5BE1B7C6DDF3DC372B030B /* Pods_Homework3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F98D3231D51105C00B05619 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		3F98D3291D51374C00B05619 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		3FE073951D539FDA00B14D90 /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		3FE073971D53A94400B14D90 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3FE073991D53B24400B14D90 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		3FE074621D5459BB00B14D90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FE074641D5460AD00B14D90 /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
 		3FFE42F11D4C259C0090B9FC /* Homework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE42F41D4C259C0090B9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFE42F91D4C259C0090B9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +71,6 @@
 		3FFE43191D4C259C0090B9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FFE43251D4C28FA0090B9FC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3FFE43271D4C290A0090B9FC /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		3FFE43291D4C30990090B9FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		41556B12681CDE09628EA5B4 /* Pods-Homework3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Homework3/Pods-Homework3.release.xcconfig"; sourceTree = "<group>"; };
 		9D649114D791C47A580299A0 /* Pods_Homework3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4716041C0A6EEB98883C125 /* Pods-Homework3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Homework3Tests/Pods-Homework3Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +107,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F98D32B1D51377800B05619 /* CustomTableCells */ = {
+			isa = PBXGroup;
+			children = (
+				3F98D3291D51374C00B05619 /* UserTableViewCell.swift */,
+			);
+			name = CustomTableCells;
+			sourceTree = "<group>";
+		};
+		3F98D32C1D51379F00B05619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE074621D5459BB00B14D90 /* GoogleService-Info.plist */,
+				3FFE42F41D4C259C0090B9FC /* AppDelegate.swift */,
+				3FFE42FE1D4C259C0090B9FC /* Assets.xcassets */,
+				3FFE43001D4C259C0090B9FC /* LaunchScreen.storyboard */,
+				3FFE43031D4C259C0090B9FC /* Info.plist */,
+				3FFE42FB1D4C259C0090B9FC /* Homework3.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F98D32D1D5137B900B05619 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3FE073971D53A94400B14D90 /* User.swift */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
 		3FFE42E81D4C259C0090B9FC = {
 			isa = PBXGroup;
 			children = (
@@ -120,15 +161,16 @@
 		3FFE42F31D4C259C0090B9FC /* Homework3 */ = {
 			isa = PBXGroup;
 			children = (
-				3FFE42F41D4C259C0090B9FC /* AppDelegate.swift */,
-				3FFE43291D4C30990090B9FC /* GoogleService-Info.plist */,
+				3F98D32C1D51379F00B05619 /* Supporting Files */,
 				3FFE42F81D4C259C0090B9FC /* Main.storyboard */,
-				3FFE42FE1D4C259C0090B9FC /* Assets.xcassets */,
-				3FFE43001D4C259C0090B9FC /* LaunchScreen.storyboard */,
-				3FFE43031D4C259C0090B9FC /* Info.plist */,
-				3FFE42FB1D4C259C0090B9FC /* Homework3.xcdatamodeld */,
 				3FFE43251D4C28FA0090B9FC /* LoginViewController.swift */,
 				3FFE43271D4C290A0090B9FC /* SignUpViewController.swift */,
+				3F98D3231D51105C00B05619 /* MainTableViewController.swift */,
+				3F98D32D1D5137B900B05619 /* CustomClasses */,
+				3F98D32B1D51377800B05619 /* CustomTableCells */,
+				3FE073951D539FDA00B14D90 /* UsersTableViewController.swift */,
+				3FE073991D53B24400B14D90 /* UserViewController.swift */,
+				3FE074641D5460AD00B14D90 /* InviteViewController.swift */,
 			);
 			path = Homework3;
 			sourceTree = "<group>";
@@ -287,7 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFE43021D4C259C0090B9FC /* LaunchScreen.storyboard in Resources */,
-				3FFE432A1D4C30990090B9FC /* GoogleService-Info.plist in Resources */,
+				3FE074631D5459BB00B14D90 /* GoogleService-Info.plist in Resources */,
 				3FFE42FF1D4C259C0090B9FC /* Assets.xcassets in Resources */,
 				3FFE42FA1D4C259C0090B9FC /* Main.storyboard in Resources */,
 			);
@@ -438,9 +480,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFE43261D4C28FA0090B9FC /* LoginViewController.swift in Sources */,
+				3FE0739A1D53B24400B14D90 /* UserViewController.swift in Sources */,
 				3FFE42FD1D4C259C0090B9FC /* Homework3.xcdatamodeld in Sources */,
+				3FE073961D539FDA00B14D90 /* UsersTableViewController.swift in Sources */,
 				3FFE43281D4C290A0090B9FC /* SignUpViewController.swift in Sources */,
+				3F98D32A1D51374C00B05619 /* UserTableViewCell.swift in Sources */,
+				3FE073981D53A94400B14D90 /* User.swift in Sources */,
+				3F98D3241D51105C00B05619 /* MainTableViewController.swift in Sources */,
 				3FFE42F51D4C259C0090B9FC /* AppDelegate.swift in Sources */,
+				3FE074651D5460AD00B14D90 /* InviteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

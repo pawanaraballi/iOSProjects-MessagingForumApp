@@ -6,8 +6,12 @@ target 'Homework3' do
   use_frameworks!
 pod 'MBProgressHUD'
 pod 'Firebase/Core'
-pod 'Firebase/RemoteConfig'
-pod 'Firebase/Database' 
+pod 'Firebase/Database'
+pod 'Firebase'
+pod 'Firebase/Storage'
+pod 'Firebase/Auth'
+pod 'Toast-Swift', '~> 1.3.0'
+pod ‘SDWebImage’, ‘~>3.7’ 
   # Pods for Homework3
 
   target 'Homework3Tests' do
