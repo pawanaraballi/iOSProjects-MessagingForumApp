@@ -24,14 +24,14 @@ class LoginViewController: UIViewController {
         password.text = "paraball"
     }
     
-//    override func viewDidAppear(animated: Bool) {
-//        if ((FIRAuth.auth()?.currentUser) != nil){
-//            let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-//            let vc : UINavigationController = storyboard.instantiateViewControllerWithIdentifier("mainNavigationStoryBoard") as! UINavigationController
-//            self.presentViewController(vc, animated: true, completion: nil)
-//            
-//        }
-//    }
+    override func viewDidAppear(animated: Bool) {
+        if ((FIRAuth.auth()?.currentUser) != nil){
+            let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc : UINavigationController = storyboard.instantiateViewControllerWithIdentifier("mainNavigationStoryBoard") as! UINavigationController
+            self.presentViewController(vc, animated: true, completion: nil)
+            
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import MGSwipeTableCell
 
-class CustomInboxTableViewCell: UITableViewCell {
+class CustomInboxTableViewCell:  MGSwipeTableCell{
 
+    @IBOutlet weak var displayPic: UIImageView!
+    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var message: UILabel!
+    @IBOutlet weak var readMessage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

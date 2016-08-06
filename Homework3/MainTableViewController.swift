@@ -11,7 +11,7 @@ import Firebase
 
 class MainTableViewController: UITableViewController {
     
-    var items = ["Profile","Forum","Inbox","Users"]
+    //var items = ["Profile","Forum","Inbox","Users"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,11 +21,6 @@ class MainTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBAction func logoutButton(sender: AnyObject) {
@@ -45,37 +40,7 @@ class MainTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return items.count
-    }
-
-    
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("mainTableCell", forIndexPath: indexPath)
-        cell.textLabel?.text = items[indexPath.row]
-
-        return cell
-    }
- 
-
-    
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        //print(tableView.indexPathForSelectedRow)
-        if items[tableView.indexPathForSelectedRow!.row] == "Profile" {
-            
-        }else if items[tableView.indexPathForSelectedRow!.row] == "Forum" {
-            
-        }else if items[tableView.indexPathForSelectedRow!.row] == "Inbox" {
-            
-        }else if items[tableView.indexPathForSelectedRow!.row] == "Users" {
-            if let destination = segue.destinationViewController as? UsersTableViewController {
-                //destination.data = AppsData.data[viaSegue]![(tableView.indexPathForSelectedRow?.row)!]
-
-            }
-
-        }
+        return 4
     }
     
 

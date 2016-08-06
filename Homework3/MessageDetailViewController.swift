@@ -7,13 +7,32 @@
 //
 
 import UIKit
+import SDWebImage
 
 class MessageDetailViewController: UIViewController {
 
+    @IBOutlet weak var displayImage: UIImageView!
+    @IBOutlet weak var message: UILabel!
+    @IBOutlet weak var userName: UILabel!
+    
+    var dp = ""
+    var userN = ""
+    var mess = ""
+    var receiverID = ""
+    var receiverName = ""
+    var receiverdisplayPic = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        message.text = mess
+        userName.text = userN
+        if dp != "" {
+            let imageURL = NSURL(string: dp)
+            if let url = imageURL {
+                displayImage.sd_setImageWithURL(url)
+            }
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,14 +41,24 @@ class MessageDetailViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        switch segue.identifier! {
+        case "replySegue":
+            let uid = receiverID
+            if let destination = segue.destinationViewController as? MessageViewController {
+                let sentName = receiverName
+                let displayPic = receiverdisplayPic
+                destination.clickedUser = User(firstName: sentName,lastName: "",email: "",displayPic: displayPic,uid: uid)
+                
+            }
+        default:
+            break
+        }
     }
-    */
+    
 
 }

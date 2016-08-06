@@ -85,14 +85,26 @@ class UserViewController: UIViewController,UIImagePickerControllerDelegate,UINav
 
 
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        switch segue.identifier! {
+        case "messageSegue":
+            if let destination = segue.destinationViewController as? MessageViewController {
+                destination.clickedUser = self.clickedUser
+                
+            }
+        default:
+            break
+        }
     }
-    */
+    
 
+}
+
+
+protocol updateFields {
+    func sendMessage(user: User)
 }

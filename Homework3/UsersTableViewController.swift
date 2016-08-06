@@ -67,7 +67,13 @@ class UsersTableViewController: UITableViewController {
             if let url = imageURL {
                 cell.displayPic.sd_setImageWithURL(url)
             }
+
         }
+        cell.displayPic.layer.borderWidth = 1
+        cell.displayPic.layer.masksToBounds = false
+        cell.displayPic.layer.borderColor = UIColor.blackColor().CGColor
+        cell.displayPic.layer.cornerRadius = cell.displayPic.frame.height/2
+        cell.displayPic.clipsToBounds = true
 
         return cell
     }
@@ -113,8 +119,16 @@ class UsersTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let destination = segue.destinationViewController as! UserViewController
-        destination.clickedUser = users[(tableView.indexPathForSelectedRow?.row)!]
+        switch segue.identifier! {
+        case "inviteeSegue":
+            let destination = segue.destinationViewController as! InviteViewController
+            //destination.clickedUser = users[(tableView.indexPathForSelectedRow?.row)!]
+        case "userSegue" :
+            let destination = segue.destinationViewController as! UserViewController
+            destination.clickedUser = users[(tableView.indexPathForSelectedRow?.row)!]
+        default:
+            break
+        }
     }
     
 

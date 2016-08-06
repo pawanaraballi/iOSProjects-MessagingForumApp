@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import MGSwipeTableCell
 
-class CustomCommentTableViewCell: UITableViewCell {
+class CustomCommentTableViewCell: MGSwipeTableCell {
 
+
+    @IBOutlet weak var displayImage: UIImageView!
+    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var message: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

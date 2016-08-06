@@ -14,6 +14,23 @@
 		3FE0739A1D53B24400B14D90 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE073991D53B24400B14D90 /* UserViewController.swift */; };
 		3FE074631D5459BB00B14D90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FE074621D5459BB00B14D90 /* GoogleService-Info.plist */; };
 		3FE074651D5460AD00B14D90 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074641D5460AD00B14D90 /* InviteViewController.swift */; };
+		3FE074671D54696E00B14D90 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074661D54696E00B14D90 /* MessageViewController.swift */; };
+		3FE074691D5476C700B14D90 /* InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074681D5476C600B14D90 /* InboxTableViewController.swift */; };
+		3FE0746B1D54770200B14D90 /* CustomInboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0746A1D54770200B14D90 /* CustomInboxTableViewCell.swift */; };
+		3FE0746D1D547C3B00B14D90 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0746C1D547C3B00B14D90 /* Messages.swift */; };
+		3FE0746F1D54897200B14D90 /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0746E1D54897200B14D90 /* MessageDetailViewController.swift */; };
+		3FE074711D549E0A00B14D90 /* ForumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074701D549E0A00B14D90 /* ForumsTableViewController.swift */; };
+		3FE074731D549EFF00B14D90 /* ForumPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074721D549EFF00B14D90 /* ForumPosts.swift */; };
+		3FE074751D54A0AB00B14D90 /* CustomForumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074741D54A0AB00B14D90 /* CustomForumsTableViewCell.swift */; };
+		3FE074771D54A27500B14D90 /* ForumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074761D54A27500B14D90 /* ForumsViewController.swift */; };
+		3FE074791D54A7AF00B14D90 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074781D54A7AF00B14D90 /* ProfileViewController.swift */; };
+		3FE0747D1D55179500B14D90 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0747C1D55179500B14D90 /* ForumViewController.swift */; };
+		3FE0747F1D55257800B14D90 /* CustomCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0747E1D55257800B14D90 /* CustomCommentTableViewCell.swift */; };
+		3FE074811D55259C00B14D90 /* CustomComment2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074801D55259C00B14D90 /* CustomComment2TableViewCell.swift */; };
+		3FE074831D5526BB00B14D90 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074821D5526BB00B14D90 /* Comments.swift */; };
+		3FE074851D55463400B14D90 /* MessageSelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074841D55463400B14D90 /* MessageSelectUserViewController.swift */; };
+		3FE074871D5547AE00B14D90 /* UsersSelectedMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074861D5547AE00B14D90 /* UsersSelectedMessageTableViewController.swift */; };
+		3FE074891D5550D200B14D90 /* CustomUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE074881D5550D200B14D90 /* CustomUserTableViewCell.swift */; };
 		3FFE42F51D4C259C0090B9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE42F41D4C259C0090B9FC /* AppDelegate.swift */; };
 		3FFE42FA1D4C259C0090B9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE42F81D4C259C0090B9FC /* Main.storyboard */; };
 		3FFE42FD1D4C259C0090B9FC /* Homework3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE42FB1D4C259C0090B9FC /* Homework3.xcdatamodeld */; };
@@ -56,6 +73,23 @@
 		3FE073991D53B24400B14D90 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		3FE074621D5459BB00B14D90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3FE074641D5460AD00B14D90 /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		3FE074661D54696E00B14D90 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		3FE074681D5476C600B14D90 /* InboxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
+		3FE0746A1D54770200B14D90 /* CustomInboxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInboxTableViewCell.swift; sourceTree = "<group>"; };
+		3FE0746C1D547C3B00B14D90 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		3FE0746E1D54897200B14D90 /* MessageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
+		3FE074701D549E0A00B14D90 /* ForumsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumsTableViewController.swift; sourceTree = "<group>"; };
+		3FE074721D549EFF00B14D90 /* ForumPosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumPosts.swift; sourceTree = "<group>"; };
+		3FE074741D54A0AB00B14D90 /* CustomForumsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomForumsTableViewCell.swift; sourceTree = "<group>"; };
+		3FE074761D54A27500B14D90 /* ForumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumsViewController.swift; sourceTree = "<group>"; };
+		3FE074781D54A7AF00B14D90 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3FE0747C1D55179500B14D90 /* ForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		3FE0747E1D55257800B14D90 /* CustomCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCommentTableViewCell.swift; sourceTree = "<group>"; };
+		3FE074801D55259C00B14D90 /* CustomComment2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomComment2TableViewCell.swift; sourceTree = "<group>"; };
+		3FE074821D5526BB00B14D90 /* Comments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		3FE074841D55463400B14D90 /* MessageSelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSelectUserViewController.swift; sourceTree = "<group>"; };
+		3FE074861D5547AE00B14D90 /* UsersSelectedMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersSelectedMessageTableViewController.swift; sourceTree = "<group>"; };
+		3FE074881D5550D200B14D90 /* CustomUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUserTableViewCell.swift; sourceTree = "<group>"; };
 		3FFE42F11D4C259C0090B9FC /* Homework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE42F41D4C259C0090B9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFE42F91D4C259C0090B9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,7 +144,12 @@
 		3F98D32B1D51377800B05619 /* CustomTableCells */ = {
 			isa = PBXGroup;
 			children = (
+				3FE074881D5550D200B14D90 /* CustomUserTableViewCell.swift */,
+				3FE074801D55259C00B14D90 /* CustomComment2TableViewCell.swift */,
+				3FE0747E1D55257800B14D90 /* CustomCommentTableViewCell.swift */,
+				3FE0746A1D54770200B14D90 /* CustomInboxTableViewCell.swift */,
 				3F98D3291D51374C00B05619 /* UserTableViewCell.swift */,
+				3FE074741D54A0AB00B14D90 /* CustomForumsTableViewCell.swift */,
 			);
 			name = CustomTableCells;
 			sourceTree = "<group>";
@@ -132,6 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				3FE073971D53A94400B14D90 /* User.swift */,
+				3FE0746C1D547C3B00B14D90 /* Messages.swift */,
+				3FE074721D549EFF00B14D90 /* ForumPosts.swift */,
+				3FE074821D5526BB00B14D90 /* Comments.swift */,
 			);
 			name = CustomClasses;
 			sourceTree = "<group>";
@@ -171,6 +213,15 @@
 				3FE073951D539FDA00B14D90 /* UsersTableViewController.swift */,
 				3FE073991D53B24400B14D90 /* UserViewController.swift */,
 				3FE074641D5460AD00B14D90 /* InviteViewController.swift */,
+				3FE074661D54696E00B14D90 /* MessageViewController.swift */,
+				3FE074681D5476C600B14D90 /* InboxTableViewController.swift */,
+				3FE0746E1D54897200B14D90 /* MessageDetailViewController.swift */,
+				3FE074701D549E0A00B14D90 /* ForumsTableViewController.swift */,
+				3FE074761D54A27500B14D90 /* ForumsViewController.swift */,
+				3FE074781D54A7AF00B14D90 /* ProfileViewController.swift */,
+				3FE0747C1D55179500B14D90 /* ForumViewController.swift */,
+				3FE074841D55463400B14D90 /* MessageSelectUserViewController.swift */,
+				3FE074861D5547AE00B14D90 /* UsersSelectedMessageTableViewController.swift */,
 			);
 			path = Homework3;
 			sourceTree = "<group>";
@@ -479,16 +530,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE074811D55259C00B14D90 /* CustomComment2TableViewCell.swift in Sources */,
 				3FFE43261D4C28FA0090B9FC /* LoginViewController.swift in Sources */,
 				3FE0739A1D53B24400B14D90 /* UserViewController.swift in Sources */,
+				3FE074851D55463400B14D90 /* MessageSelectUserViewController.swift in Sources */,
+				3FE074791D54A7AF00B14D90 /* ProfileViewController.swift in Sources */,
+				3FE0746F1D54897200B14D90 /* MessageDetailViewController.swift in Sources */,
 				3FFE42FD1D4C259C0090B9FC /* Homework3.xcdatamodeld in Sources */,
+				3FE074771D54A27500B14D90 /* ForumsViewController.swift in Sources */,
+				3FE074751D54A0AB00B14D90 /* CustomForumsTableViewCell.swift in Sources */,
+				3FE0746D1D547C3B00B14D90 /* Messages.swift in Sources */,
 				3FE073961D539FDA00B14D90 /* UsersTableViewController.swift in Sources */,
+				3FE074691D5476C700B14D90 /* InboxTableViewController.swift in Sources */,
+				3FE0747F1D55257800B14D90 /* CustomCommentTableViewCell.swift in Sources */,
 				3FFE43281D4C290A0090B9FC /* SignUpViewController.swift in Sources */,
 				3F98D32A1D51374C00B05619 /* UserTableViewCell.swift in Sources */,
 				3FE073981D53A94400B14D90 /* User.swift in Sources */,
+				3FE074671D54696E00B14D90 /* MessageViewController.swift in Sources */,
+				3FE0746B1D54770200B14D90 /* CustomInboxTableViewCell.swift in Sources */,
 				3F98D3241D51105C00B05619 /* MainTableViewController.swift in Sources */,
+				3FE074711D549E0A00B14D90 /* ForumsTableViewController.swift in Sources */,
 				3FFE42F51D4C259C0090B9FC /* AppDelegate.swift in Sources */,
+				3FE074871D5547AE00B14D90 /* UsersSelectedMessageTableViewController.swift in Sources */,
+				3FE074891D5550D200B14D90 /* CustomUserTableViewCell.swift in Sources */,
 				3FE074651D5460AD00B14D90 /* InviteViewController.swift in Sources */,
+				3FE074731D549EFF00B14D90 /* ForumPosts.swift in Sources */,
+				3FE0747D1D55179500B14D90 /* ForumViewController.swift in Sources */,
+				3FE074831D5526BB00B14D90 /* Comments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

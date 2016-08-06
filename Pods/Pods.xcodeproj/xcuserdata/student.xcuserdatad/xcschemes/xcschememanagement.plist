@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MGSwipeTableCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,17 +47,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3825FFEAFA228C0A0862B6F26DA60121</key>
+		<key>4E1263BFF45F6446CF3DE29AE234C893</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6E3F47AE9FFCD1A8265843BFEC0554D5</key>
+		<key>6BEE6B77C3E2A00F913A18C43435B63D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>93726C80C3C9959A09124E5B8A93E153</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>96364DABBF37EC90B6996C4746E8F72D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF9712B94F3A192BCE75B833E2459DEA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -58,11 +83,6 @@
 			<true/>
 		</dict>
 		<key>DBA6001481CEA0EBA031CC5C94508FAA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DC52EB1D84619272A4BD200EA4F10B36</key>
 		<dict>
 			<key>primary</key>
 			<true/>

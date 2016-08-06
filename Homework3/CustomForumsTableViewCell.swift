@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import MGSwipeTableCell
 
-class CustomForumsTableViewCell: UITableViewCell {
+class CustomForumsTableViewCell: MGSwipeTableCell {
 
+    @IBOutlet weak var displayPic: UIImageView!
+    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var message: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

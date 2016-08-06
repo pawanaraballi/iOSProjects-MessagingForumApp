@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import Alamofire
+import Firebase
 
 class InviteViewController: UIViewController {
 
     @IBOutlet weak var email: UITextField!
+    var currUser = FIRAuth.auth()?.currentUser
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,9 +26,28 @@ class InviteViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func cancelButton(sender: UIBarButtonItem) {
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     @IBAction func submitButton(sender: UIBarButtonItem) {
+        let key = "key-7baa820349b8f29529db2c5710cecca2"
+        
+        let parameters = [
+            "from": currUser?.email,
+            "to": email.text,
+            "subject": "From the Forum App - Pawan Araballi",
+            "text": inviteeMessage.text
+        ]
+        
+        let r = Alamofire.request(.POST, "https://api.mailgun.net/v3/sandbox0730f8b81c9f44d0b8f85eac0b4bbf13.mailgun.org/messages", parameters:parameters)
+            .authenticate(user: "api", password: key)
+            .response { (request, response, data, error) in
+                print(request)
+                print(response)
+                print(error)
+        }
+        debugPrint(r)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
 
     /*

@@ -11,7 +11,10 @@ pod 'Firebase'
 pod 'Firebase/Storage'
 pod 'Firebase/Auth'
 pod 'Toast-Swift', '~> 1.3.0'
-pod ‘SDWebImage’, ‘~>3.7’ 
+pod ‘SDWebImage’, ‘~>3.7’
+pod 'Alamofire'
+pod 'MGSwipeTableCell'
+ 
   # Pods for Homework3
 
   target 'Homework3Tests' do
